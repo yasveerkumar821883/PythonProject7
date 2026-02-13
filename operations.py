@@ -15,3 +15,4 @@ l3.sort()# this method sort the list
 print("Sorted list : ",l3)
 l3.reverse()# this method will reverse the list
 print("Reverse list : ",l3)
+print(l1.pop(1))
