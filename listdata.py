@@ -1,2 +1,2 @@
-s={32,42543,2,5,353,3,3}
-print(type(s))
+for i in range(1,5):
+    print(i," "+"-"+" ",i*i)
