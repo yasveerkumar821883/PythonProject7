@@ -22,6 +22,6 @@ for count in range(1, attempts + 1):
 
 else:
     print("😢 Game Over!")
-    print("The secret number was: ", secret_number)
+    print("The secret number was : ", secret_number)
 
 print("It's Over 🎮")
