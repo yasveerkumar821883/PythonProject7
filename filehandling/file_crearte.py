@@ -1,2 +1,2 @@
-with open("notes.txt","w") as file:
-    file.write("hello everyone :")
+with open("notes1.txt","wt") as file:
+    file.read()
