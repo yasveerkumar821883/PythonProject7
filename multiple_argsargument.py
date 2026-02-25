@@ -1,4 +1,9 @@
-def add(*args):
-   print(args)
-add(1,2)
-add(23,234)
+class School:
+    school_name = "ABC School"
+
+    @classmethod
+    def change_name(cls, new_name):
+        cls.school_name = new_name
+        print(cls.school_name)
+c1=School
+c1.change_name("hello ji")
